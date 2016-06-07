@@ -1,5 +1,7 @@
 module Styles exposing (game, board, heap, coin, title)
 
+-- This file wasn't a part of live-coding session
+
 type alias Style = List (String, String)
 
 
