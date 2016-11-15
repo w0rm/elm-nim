@@ -2,47 +2,49 @@ module Styles exposing (game, board, heap, coin, title)
 
 -- This file wasn't a part of live-coding session
 
-type alias Style = List (String, String)
+
+type alias Style =
+    List ( String, String )
 
 
 game : Style
 game =
-  [ ("margin", "50px auto")
-  , ("width", "300px")
-  ]
+    [ ( "margin", "50px auto" )
+    , ( "width", "300px" )
+    ]
 
 
 title : Style
 title =
-  [ ("font", "20px/1 sans-serif")
-  , ("margin-bottom", "20px")
-  ]
+    [ ( "font", "20px/1 sans-serif" )
+    , ( "margin-bottom", "20px" )
+    ]
 
 
 board : Style
 board =
-  [ ("display", "flex")
-  , ("width", "300px")
-  , ("height", "200px")
-  , ("border-bottom", "2px solid #550")
-  ]
+    [ ( "display", "flex" )
+    , ( "width", "300px" )
+    , ( "height", "200px" )
+    , ( "border-bottom", "2px solid #550" )
+    ]
 
 
 heap : Style
 heap =
-  [ ("align-self", "flex-end")
-  , ("flex-grow", "1")
-  , ("width", "100px")
-  ]
+    [ ( "align-self", "flex-end" )
+    , ( "flex-grow", "1" )
+    , ( "width", "100px" )
+    ]
 
 
 coin : Style
 coin =
-  [ ("display", "block")
-  , ("margin", "1px auto")
-  , ("color", "#550")
-  , ("background", "#FF0")
-  , ("min-width", "50px")
-  , ("font", "20px/1 sans-serif")
-  , ("border", "2px solid currentColor")
-  ]
+    [ ( "display", "block" )
+    , ( "margin", "1px auto" )
+    , ( "color", "#550" )
+    , ( "background", "#FF0" )
+    , ( "min-width", "50px" )
+    , ( "font", "20px/1 sans-serif" )
+    , ( "border", "2px solid currentColor" )
+    ]
